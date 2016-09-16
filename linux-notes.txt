@@ -1,0 +1,43 @@
+"cd /"                                         go to root directory
+"cd .."                                        go back to last directory
+"cd ~"                                         go to main directory
+
+
+"ls"                                           list all files and directories directory-blue document-black executive files-green link-blue
+"ls *.cpp"                                     list all cpp files
+"ls text?"                                     list all files start with "text"
+"ls text[1A]"                                  list all files start with "text" and end with 1 or A
+"ls text[1-3]"                                 list all files start with "text" and end with 1~3
+"ls text[A-C]"
+"ls -F"                                        directory-/  executive files-*   link-@  
+"ls -a"                                        show all hidden files
+"ls -l"                                        show properties
+
+"cat"                                          show a file(normally text)
+"cat -n"                                       show a text file with row number
+"more"                                         show files with a percentage
+"head -n"                                      show the head of a text file
+"tail -n"                                      show the end of a text file
+"less"                                         show a text file(more powerful than "more")
+
+"pwd"                                          show current directory
+
+"grep [word] [file] [file]..."                 find "word" in "file"s
+"find [Path..] -name [File name/directory] -print        find "file name" in "path" and print out
+"find [path..] -name [name.type] -type [type] -print     find specific kind of file  [type]=d-directory f-npormal files
+"find [path..] -type [type] -atime +100        find files used in 100 days ago. "-mtime" means files modified 100 days ago
+"locate"                                       find files
+
+"whereis [find]"                               find where is the executive file of "find"
+
+"who"                                          who logs into the computer
+"whoami"                                       who am i
+"uname -a"                                     informations about the system
+
+"man [find]"                                   how to use "find"
+"whatis [find]"                                simple explanations of "find"
+"apropos [search]"                             find all commands include "search"
+
+
+
+
